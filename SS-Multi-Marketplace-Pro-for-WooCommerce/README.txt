@@ -104,4 +104,4 @@ Upgrade to Pro for:
 * ✅ Bulk import/export
 * ✅ Priority support
 
-[Upgrade to Pro Version →](https://www.sharesoft.in/products/ss-multi-marketplace-pro-for-woocommerce-external-product-links-custom-buttons-click-analytics//)
+[Upgrade to Pro Version →](https://www.sharesoft.in/products/ss-multi-marketplace-pro-woocommerce/)

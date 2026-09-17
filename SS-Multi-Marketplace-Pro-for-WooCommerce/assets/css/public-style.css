@@ -1,0 +1,87 @@
+/* Frontend External Buttons Styles */
+:root {
+    --ss-mmp-btn-bg: #a46497;
+    --ss-mmp-btn-text: #ffffff;
+    --ss-mmp-btn-font-size: 14px;
+    --ss-mmp-scrollbar-thumb: #ff9900;
+}
+
+.ss-external-buttons-container { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 8px; 
+    margin-top: 15px;
+    clear: both;
+    max-height: 100px;
+    overflow-y: auto;
+    padding-right: 5px;
+    scroll-behavior: smooth;
+        overflow-x: hidden;
+} 
+a.button.alt.ss-external-btn img {
+    margin: 0;
+}
+/* 3 Columns on Single Product Page */
+.single-product .ss-external-buttons-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-height: 150px;
+    gap: 10px;
+} 
+
+/* 1 Column on Mobile or Shop/Archive if container is narrow */
+@media (max-width: 768px) {
+    .single-product .ss-external-buttons-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .single-product .ss-external-buttons-container,
+    .ss-external-buttons-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.ss-external-buttons-container a.ss-external-btn { 
+    text-decoration: unset !important;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 12px 10px;
+    font-weight: bold;
+    font-size: var(--ss-mmp-btn-font-size) !important;
+    text-transform: uppercase;
+    background-color: var(--ss-mmp-btn-bg) !important;
+    color: var(--ss-mmp-btn-text) !important;
+    border-radius: 4px;
+    line-height: 1.2;
+    cursor: pointer;
+}
+
+.ss-external-buttons-container a.ss-external-btn:hover {
+    background-color: var(--ss-mmp-btn-hover) !important;
+    filter: brightness(1.1);
+}
+
+/* Scrollbar width */
+.ss-external-buttons-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track (background) */
+.ss-external-buttons-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+/* Thumb (scroll handle) */
+.ss-external-buttons-container::-webkit-scrollbar-thumb {
+    background: var(--ss-mmp-scrollbar-thumb);
+    border-radius: 10px;
+}
+
+/* Hover effect */
+.ss-external-buttons-container::-webkit-scrollbar-thumb:hover {
+    filter: brightness(0.9);
+}

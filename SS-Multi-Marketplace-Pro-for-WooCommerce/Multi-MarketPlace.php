@@ -233,7 +233,7 @@ function ss_mmp_init_plugin() {
                         if (currentRows >= 5) {
                             // Show upgrade prompt instead of adding new row
                             if (confirm('🔒 Free Version Limit: You can add maximum 5 marketplace buttons per product.\n\nClick OK to upgrade to Pro Version for unlimited buttons, or Cancel to continue.')) {
-                                window.open('http://www.sharesoft.in/ss-multimarketplace-pro/', '_blank');
+                                window.open('https://www.sharesoft.in/products/ss-multi-marketplace-pro-woocommerce/', '_blank');
                             }
                             return false;
                         }
@@ -886,7 +886,7 @@ function ss_mmp_init_plugin() {
                 <div style="text-align: center; background: #e3f2fd; padding: 30px; border-radius: 10px; margin: 30px 0;">
                     <h3 style="margin-top: 0; color: #1976d2;">🎉 Need More Features?</h3>
                     <p style="margin-bottom: 20px; color: #424242;">Get unlimited products, advanced analytics, custom styling, and more!</p>
-                    <a href="https://www.sharesoft.in/products/ss-multi-marketplace-pro-for-woocommerce-external-product-links-custom-buttons-click-analytics/" target="_blank" style="background: #1976d2; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;">
+                    <a href="https://www.sharesoft.in/products/ss-multi-marketplace-pro-woocommerce/" target="_blank" style="background: #1976d2; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;">
                         🚀 View Pro Version Features
                     </a>
                 </div>
@@ -960,7 +960,7 @@ function ss_mmp_init_plugin() {
                         <span style="color: #999;"> / one-time payment</span>
                     </div>
                     
-                    <a href="https://www.sharesoft.in/products/ss-multi-marketplace-pro-for-woocommerce-external-product-links-custom-buttons-click-analytics/" target="_blank" style="background: linear-gradient(45deg, #ff6b35, #f7931e); color: white; padding: 15px 40px; text-decoration: none; border-radius: 25px; font-size: 1.1em; font-weight: bold; display: inline-block; margin-bottom: 15px;">
+                    <a href="https://www.sharesoft.in/products/ss-multi-marketplace-pro-woocommerce/" target="_blank" style="background: linear-gradient(45deg, #ff6b35, #f7931e); color: white; padding: 15px 40px; text-decoration: none; border-radius: 25px; font-size: 1.1em; font-weight: bold; display: inline-block; margin-bottom: 15px;">
                         💳 Buy Pro Version Now
                     </a>
                     

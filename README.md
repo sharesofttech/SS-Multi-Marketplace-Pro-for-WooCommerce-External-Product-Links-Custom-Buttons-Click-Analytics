@@ -2,11 +2,9 @@
 Contributors: SS Multi Marketplace Pro for WooCommerce – External Product Links, Custom Buttons & Click Analytics
 Plugin URI: http://www.sharesoft.in/
 Tags: woocommerce, marketplace, buttons, amazon, flipkart, external links
-Requires at least: 5.0
 Tested up to: 7.1
-Stable tag: 1.0
-License: GPL v2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+
 
 Replace WooCommerce Add to Cart buttons with custom external marketplace buttons (Free Version - Limited to 5 Products)
 

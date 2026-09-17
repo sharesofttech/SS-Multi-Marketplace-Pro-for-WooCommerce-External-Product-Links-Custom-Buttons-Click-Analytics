@@ -4,8 +4,6 @@ Plugin URI: http://www.sharesoft.in/
 Tags: woocommerce, marketplace, buttons, amazon, flipkart, external links
 Tested up to: 7.1
 
-
-
 Replace WooCommerce Add to Cart buttons with custom external marketplace buttons (Free Version - Limited to 5 Products)
 
 == Description ==
@@ -35,7 +33,7 @@ SS MultiMarketPlace allows you to replace the default WooCommerce "Add to Cart" 
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/ss-multimarketplace` directory, or install the plugin through the WordPress plugins screen directly.
+1. Upload the plugin files to the `/wp-content/plugins/SS-Multi-Marketplace-Pro-for-WooCommerce` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress
 3. Make sure WooCommerce is installed and activated
 4. Go to Multi Marketplace → Settings to configure your preferences

@@ -89,7 +89,7 @@ Advanced analytics and click tracking are available in the Pro version.
 == Upgrade Notice ==
 
 = 1.0 =
-Initial release of SS MultiMarketPlace free version.
+Initial release of SS-Multi-Marketplace-Pro-for-WooCommerce free version.
 
 == Pro Version ==
 
